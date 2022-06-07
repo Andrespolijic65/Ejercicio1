@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!--Elemento raiz -->
+    <xs:element name="listaventas">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Hijos de listaventas -->
+                <xs:element name="venta" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <!-- secuencia de importe, comprador, vendedor, fecha, codigo factura-->
+                            <xs:element name="Importe" type="xs:decimal"/>
+                            <xs:element name="Comprador" type="xs:string"/>
+                            <xs:element name="Vendedor" type="xs:string"/>
+                            <xs:element name="Fecha" type="xs:date" minOccurs="0"/>
+                            <xs:element name="Codigofactura" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+
+    </xs:element>
+
+</xs:schema>

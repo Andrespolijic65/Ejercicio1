@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listaventas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="ejercicio1.xsd">
+    <venta>
+        <Importe> 120000 </Importe>
+        <Comprador> Daniel Perez </Comprador>
+        <Vendedor> Mariana Morales </Vendedor>
+        <Fecha> 2022-06-01</Fecha>
+        <Codigofactura> A12 </Codigofactura>
+    </venta>
+    <venta>
+        <Importe> 114000 </Importe>
+        <Comprador> Pedro Hernandez </Comprador>
+        <Vendedor> Mario Gomez </Vendedor>
+        <Codigofactura> A13 </Codigofactura>
+    </venta>
+</listaventas>
+
